@@ -1,5 +1,5 @@
 import { useState } from "react";
-import image from "../assets/images/248labs.png";
+import labs from "../assets/images/248labs.png";
 import cloopp from "../assets/images/cloopp.png";
 import nexai from "../assets/images/nexai.png";
 import exgames from "../assets/images/exgames.bmp";
@@ -43,7 +43,12 @@ const Pages = () => {
         {
             month: "March",
             projects: [
-                { id: 1, title: "Cloopp", gitHubLink: "https://github.com/deepak-jhajhria/cloopp.git", liveLink: "https://cloopp.vercel.app/", image: cloopp, date: 6 },
+                { id: 1, title: "Cloopp", gitHubLink: "https://github.com/Deepak-Maan/Cloopp.git", liveLink: "https://cloopp-seven.vercel.app/", image: cloopp, date: 4 },
+                { id: 2, title: "2048-Labs", gitHubLink: "https://github.com/Deepak-Maan/labs.git", liveLink: "https://labs-alpha.vercel.app/", image: labs, date: 21 },
+                { id: 3, title: "html-swiper", gitHubLink: "https://github.com/Deepak-Maan/swiper-practice.git", liveLink: "https://swiper-html.vercel.app/", image: labs, date: 21 },
+                { id: 4, title: "NextJs-topics", gitHubLink: "https://github.com/Deepak-Maan/nextSwiper.git", liveLink: "https://nextjs-topics.vercel.app/", image: labs, date: 21 },
+                { id: 5, title: "html with vite", gitHubLink: "https://github.com/Deepak-Maan/html-vite.git", liveLink: "https://html-vite.vercel.app/", image: labs, date: 21 },
+                { id: 6, title: "html form-validater", gitHubLink: "https://github.com/Deepak-Maan/html-form-validater.git", liveLink: "https://html-form-validater.vercel.app/", image: labs, date: 21 },
 
             ]
         },
