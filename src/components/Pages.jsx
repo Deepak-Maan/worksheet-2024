@@ -4,11 +4,10 @@ import cloopp from "../assets/images/cloopp.png";
 import nexai from "../assets/images/nexai.png";
 import exgames from "../assets/images/exgames.bmp";
 import dino from "../assets/images/dinolfg.png";
-import coin from "../assets/images/coin.png";
+import js from "../assets/images/js-img.png";
 import furniture from "../assets/images/furniture.png";
 import calculator from "../assets/images/calculator.jpg";
 import dompkong from "../assets/images/dompkong.png";
-import counter from "../assets/images/counter.png";
 import lemon from "../assets/images/lemon.png";
 
 const Pages = () => {
@@ -32,7 +31,7 @@ const Pages = () => {
             month: "February",
             projects: [
                 { id: 1, title: "Exclusive Games", gitHubLink: "https://github.com/Deepak-Maan/exclusive-games.git", liveLink: "https://exclusive-games.vercel.app/", image: exgames, date: 5 },
-                { id: 2, title: "Js-Test", gitHubLink: "https://github.com/Deepak-Maan/js-test", image: exgames, date: 7 },
+                { id: 2, title: "Js-Test", gitHubLink: "https://github.com/Deepak-Maan/js-test", image: js, date: 7 },
                 { id: 3, title: "Dino-LFG", gitHubLink: "https://github.com/Deepak-Maan/Dino_LFG.git", liveLink: "https://dino-lfg.vercel.app/", image: dino, date: 10 },
                 { id: 4, title: "NEXAI", gitHubLink: "https://github.com/Deepak-Maan/nexai.git", liveLink: "https://nexai-kappa.vercel.app/", image: nexai, date: 19 },
                 { id: 5, title: "Calculator", gitHubLink: "https://github.com/Deepak-Maan/calculator", liveLink: "https://calculator-two-black.vercel.app/", image: calculator, date: 22 },
