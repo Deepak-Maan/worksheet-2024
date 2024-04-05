@@ -9,6 +9,7 @@ import furniture from "../assets/images/furniture.png";
 import calculator from "../assets/images/calculator.jpg";
 import dompkong from "../assets/images/dompkong.png";
 import lemon from "../assets/images/lemon.png";
+import NobleMind from '../assets/images/noble-mind.png'
 
 const Pages = () => {
     const [first, setFirst] = useState(0);
@@ -51,6 +52,12 @@ const Pages = () => {
 
             ]
         },
+        {
+            month: "April",
+            projects: [
+                { id: 1, title: "Noble-Mind", gitHubLink: "https://github.com/Deepak-Maan/noble-mind.git", liveLink: "https://noble-mind-376.vercel.app/", image: NobleMind, date: 5 },
+            ]
+        },
     ];
 
     return (
@@ -62,6 +69,7 @@ const Pages = () => {
                         <button onClick={() => tabChange(0)} className={`${first === 0 && "text-[#1B59F8] bg-[#E9EFFF]"} text-base capitalize py-3 px-10 rounded-lg`}>January</button>
                         <button onClick={() => tabChange(1)} className={`${first === 1 && "text-[#1B59F8] bg-[#E9EFFF]"} text-base capitalize py-3 px-10 rounded-lg`}>February</button>
                         <button onClick={() => tabChange(2)} className={`${first === 2 && "text-[#1B59F8] bg-[#E9EFFF]"} text-base capitalize py-3 px-10 rounded-lg`}>March</button>
+                        <button onClick={() => tabChange(3)} className={`${first === 3 && "text-[#1B59F8] bg-[#E9EFFF]"} text-base capitalize py-3 px-10 rounded-lg`}>April</button>
                     </div>
                 </div>
                 <div className="col-span-6 p-20 overflow-y-scroll">
