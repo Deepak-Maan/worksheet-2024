@@ -12,8 +12,12 @@ import lemon from "../assets/images/lemon.png";
 import NobleMind from '../assets/images/noble-mind.png'
 
 const Pages = () => {
-    const [first, setFirst] = useState(0);
-
+    function getdate() {
+        const today = new Date();
+        const month = today.getMonth()
+        return month
+    }
+    const [first, setFirst] = useState(getdate);
     const tabChange = (tabIndex) => {
         setFirst(tabIndex);
     };
@@ -25,7 +29,6 @@ const Pages = () => {
                 { id: 1, title: "DompKong", gitHubLink: "https://github.com/Deepak-Maan/dompkong1.git", liveLink: "https://dompkong-topaz.vercel.app/", image: dompkong, date: 6 },
                 { id: 2, title: "Furniture", gitHubLink: "https://github.com/Deepak-Maan/furniture-design.git", liveLink: "https://furniture-fawn-tau.vercel.app/", image: furniture, date: 16 },
                 { id: 3, title: "Lemon-Wares", gitHubLink: "https://github.com/Deepak-Maan/lemon-wares.git", liveLink: "https://lemon-wares-six.vercel.app/", image: lemon, date: 25 },
-
             ]
         },
         {
@@ -56,6 +59,7 @@ const Pages = () => {
             month: "April",
             projects: [
                 { id: 1, title: "Noble-Mind", gitHubLink: "https://github.com/Deepak-Maan/noble-mind.git", liveLink: "https://noble-mind-376.vercel.app/", image: NobleMind, date: 5 },
+                { id: 2, title: "EmailJs-Task", gitHubLink: "https://github.com/Deepak-Maan/email-task.git", liveLink: "https://email-js-task.vercel.app/", image: js, date: 17 },
             ]
         },
     ];
